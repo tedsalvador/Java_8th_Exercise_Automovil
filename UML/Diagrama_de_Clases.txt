@@ -1,0 +1,60 @@
+,-------------------------------------------------------------------------------------------.
+|Automovil                                                                                  |
+|-------------------------------------------------------------------------------------------|
+|- marca: String                                                                            |
+|- modelo: int                                                                              |
+|- motor: double                                                                            |
+|- tipoCombustible: Combustible                                                             |
+|- tipoAutomovil: TipoAutomovil                                                             |
+|- numeroPuertas: int                                                                       |
+|- cantidadAsientos: int                                                                    |
+|- velocidadMaxima: int                                                                     |
+|- color: Color                                                                             |
+|- velocidadActual: int                                                                     |
+|- esAutomatico: boolean                                                                    |
+|- multas: int                                                                              |
+|+ Automovil(String, int, double, Combustible, TipoAutomovil, int, int, int, Color, boolean)|
+|+ getMarca(): String                                                                       |
+|+ setMarca(String): void                                                                   |
+|+ getModelo(): int                                                                         |
+|+ setModelo(int): void                                                                     |
+|+ getMotor(): double                                                                       |
+|+ setMotor(double): void                                                                   |
+|+ getTipoCombustible(): Combustible                                                        |
+|+ setTipoCombustible(Combustible): void                                                    |
+|+ getTipoAutomovil(): TipoAutomovil                                                        |
+|+ setTipoAutomovil(TipoAutomovil): void                                                    |
+|+ getNumeroPuertas(): int                                                                  |
+|+ setNumeroPuertas(int): void                                                              |
+|+ getCantidadAsientos(): int                                                               |
+|+ setCantidadAsientos(int): void                                                           |
+|+ getVelocidadMaxima(): int                                                                |
+|+ setVelocidadMaxima(int): void                                                            |
+|+ getColor(): Color                                                                        |
+|+ setColor(Color): void                                                                    |
+|+ getVelocidadActual(): int                                                                |
+|+ isEsAutomatico(): boolean                                                                |
+|+ setEsAutomatico(boolean): void                                                           |
+|+ getMultas(): int                                                                         |
+|+ acelerar(int): void                                                                      |
+|+ desacelerar(int): void                                                                   |
+|+ frenar(): void                                                                           |
+|+ tiempoEstimadoLlegada(double): double                                                    |
+|+ mostrarValores(): void                                                                   |
+|+ tieneMultas(): boolean                                                                   |
+|+ valorTotalMultas(): int                                                                  |
+`-------------------------------------------------------------------------------------------'
+                                              |                                              
+                                              |                                              
+                                              |          ,--------.                          
+                      ,-----------.   ,---------------.  |Color   |                          
+                      |Combustible|   |TipoAutomovil  |  |--------|                          
+                      |-----------|   |---------------|  |BLANCO  |                          
+                      |GASOLINA   |   |CARRO_DE_CIUDAD|  |NEGRO   |                          
+                      |BIOETANOL  |   |SUBCOMPACTO    |  |ROJO    |                          
+                      |DIESEL     |   |COMPACTO       |  |NARANJA |                          
+                      |BIODIESEL  |   |FAMILIAR       |  |AMARILLO|                          
+                      |GAS_NATURAL|   |EJECUTIVO      |  |VERDE   |                          
+                      `-----------'   |SUV            |  |AZUL    |                          
+                                      `---------------'  |VIOLETA |                          
+                                                         `--------'                          
