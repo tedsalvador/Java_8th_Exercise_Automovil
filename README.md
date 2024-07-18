@@ -21,10 +21,6 @@ Se requiere un programa que modele el concepto de un automóvil. Un automóvil t
 -Velocidad actual: velocidad del vehículo en un momento dado.
 .
 .
-.
-.
-.
-.
 
 # Estructura del Proyecto
 Java_8th_Exercise_Automovil/<br>
