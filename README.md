@@ -1,24 +1,24 @@
 # Java_8th_Exercise_Automovil
 
-mkdir Java_8th_Exercise_Automovil
-cd Java_8th_Exercise_Automovil
-mkdir -p src/main/java/com/example/automovil/model
-mkdir -p src/main/java/com/example/automovil/service
-mkdir -p src/main/java/com/example/automovil/enums
-mkdir -p src/test/java/com/example/automovil/service
+mkdir Java_8th_Exercise_Automovil<br>
+cd Java_8th_Exercise_Automovil<br>
+mkdir -p src/main/java/com/example/automovil/model<br>
+mkdir -p src/main/java/com/example/automovil/service<br>
+mkdir -p src/main/java/com/example/automovil/enums<br>
+mkdir -p src/test/java/com/example/automovil/service<br>
 
 Enunciado:
-Se requiere un programa que modele el concepto de un automóvil. Un automóvil tiene los siguientes atributos:
--Marca: el nombre del fabricante.
--Modelo: año de fabricación.
--Motor: volumen en litros del cilindraje del motor de un automóvil.
--Tipo de combustible: valor enumerado con los posibles valores de gasolina, bioetanol, diésel, biodiésel, gas natural.
--Tipo de automóvil: valor enumerado con los posibles valores de carro de ciudad, subcompacto, compacto, familiar, ejecutivo, SUV.
--Número de puertas: cantidad de puertas.
--Cantidad de asientos: número de asientos disponibles que tiene el vehículo.
--Velocidad máxima: velocidad máxima sostenida por el vehículo en km/h.
--Color: valor enumerado con los posibles valores de blanco, negro, rojo, naranja, amarillo, verde, azul, violeta.
--Velocidad actual: velocidad del vehículo en un momento dado.
+Se requiere un programa que modele el concepto de un automóvil. Un automóvil tiene los siguientes atributos:<br>
+-Marca: el nombre del fabricante.<br>
+-Modelo: año de fabricación.<br>
+-Motor: volumen en litros del cilindraje del motor de un automóvil.<br>
+-Tipo de combustible: valor enumerado con los posibles valores de gasolina, bioetanol, diésel, biodiésel, gas natural.<br>
+-Tipo de automóvil: valor enumerado con los posibles valores de carro de ciudad, subcompacto, compacto, familiar, ejecutivo, SUV.<br>
+-Número de puertas: cantidad de puertas.<br>
+-Cantidad de asientos: número de asientos disponibles que tiene el vehículo.<br>
+-Velocidad máxima: velocidad máxima sostenida por el vehículo en km/h.<br>
+-Color: valor enumerado con los posibles valores de blanco, negro, rojo, naranja, amarillo, verde, azul, violeta.<br>
+-Velocidad actual: velocidad del vehículo en un momento dado.<br>
 .
 .
 
